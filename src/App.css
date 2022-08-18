@@ -27,10 +27,17 @@ header h1 {
 
 .movie-card {
   width: 15em;
+  height: 430px;
   border: 1px solid gray;
   border-radius: 1em;
   overflow: hidden;
   margin-bottom: 2em;
+  transition: 300ms ease-in-out;
+}
+
+.movie-card:hover {
+  width: 17em;
+  height: 500px;
 }
 
 .movie-title {
